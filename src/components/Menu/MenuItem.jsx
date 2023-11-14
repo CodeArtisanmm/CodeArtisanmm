@@ -1,8 +1,8 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { getClosest, getSiblings, slideToggle, slideUp } from '../../utils/utils';
 
-const MenuItem = ({item, toggle})=> {
+const MenuItem = ({ item, toggle }) => {
 
   // Submenu Toggle Handler
   const menuExpandHandler = (e) => {

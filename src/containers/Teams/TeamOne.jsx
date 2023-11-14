@@ -1,8 +1,8 @@
 import React from 'react';
 import Slider from 'react-slick';
-import {TitleWrap, SecSubTitle, SecTitle, TeamBoxOne} from '../../components';
+import { TitleWrap, SecSubTitle, SecTitle, TeamBoxOne } from '../../components';
 
-const TeamOne = ({...restProps})=> {      
+const TeamOne = ({ ...restProps }) => {
   const settings = {
     autoplay: true,
     autoplaySpeed: 8000,
@@ -14,27 +14,27 @@ const TeamOne = ({...restProps})=> {
     responsive: [
       {
         breakpoint: 1200,
-        settings: {          
+        settings: {
           slidesToShow: 3,
         }
       },
       {
         breakpoint: 992,
-        settings: {          
+        settings: {
           slidesToShow: 2,
         }
       },
       {
         breakpoint: 767,
-        settings: {          
+        settings: {
           slidesToShow: 1,
         }
       }
     ]
-  };  
-  
+  };
+
   return (
-    <div {...restProps}>    
+    <div {...restProps}>
       <div className="container">
         <TitleWrap className="text-center">
           <SecSubTitle>Great Team Members</SecSubTitle>
@@ -42,28 +42,33 @@ const TeamOne = ({...restProps})=> {
         </TitleWrap>
         <Slider className="row" {...settings}>
           <TeamBoxOne path="/team-details"
-            name="Daniel Matthew"
-            desgination="Cheif Expert"
+            name="Min Thurein"
+            desgination="UI/ UX designer"
             image="images/team/t-1-1.jpg"
           />
           <TeamBoxOne path="/team-details"
-            name="Grayson Gabriel"
-            desgination="Head Manager"
+            name="Min Thet Paing"
+            desgination="Full Stack Developer"
             image="images/team/t-1-2.jpg"
           />
           <TeamBoxOne path="/team-details"
-            name="Alexander Mason"
-            desgination="Founder & CEO"
+            name="Thura Htun"
+            desgination="Full Stack  Developer"
             image="images/team/t-1-3.jpg"
           />
           <TeamBoxOne path="/team-details"
-            name="Maverick Cameron"
-            desgination="Pro Developer"
+            name="Phyo Phyo Kyaw"
+            desgination="Full Stack Developer"
             image="images/team/t-1-4.jpg"
           />
           <TeamBoxOne path="/team-details"
-            name="Marian Widjya"
-            desgination="Lead Developer"
+            name="Hein Htet Naing"
+            desgination="Developer"
+            image="images/team/t-1-5.jpg"
+          />
+          <TeamBoxOne path="/team-details"
+            name="Waiyan Htet Aung"
+            desgination="Cloud Architecture/System Administrator"
             image="images/team/t-1-5.jpg"
           />
         </Slider>
