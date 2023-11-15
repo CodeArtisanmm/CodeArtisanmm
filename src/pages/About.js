@@ -19,9 +19,6 @@ const About = ()=> (
     <ServiceFour className="space-top space-extra-bottom"/>
     <AboutSeven/>
     <TeamTwo className="space-top space-extra-bottom"/>
-    <TestimonialThree className="space-top space-extra-bottom"/>
-    <CtaOne className="space"/>
-    <BlogFour className="space-top space-extra-bottom"/>
     <FooterOne/>
     <ScrollTopBtn/>
   </Fragment>
