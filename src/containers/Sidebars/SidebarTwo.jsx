@@ -26,12 +26,7 @@ const SidebarTwo = ({className})=> (
         ))}
       </CategoryWidget>
     </Widget>    
-    <BannerWidget 
-      title="Have Any Query?"
-      image="images/widget/quote-box.jpg"
-      btnText="Get A Quote"
-      path="/contact"
-    />
+    
   </aside>
 );
 

@@ -45,28 +45,23 @@ const TeamTwo = ({...restProps})=> {
         <Slider {...settings}>
           <TeamBoxTwo
             image="images/team/t-2-1.jpg"
-            name="Grayson Gabriel"
-            desgination="Cheif Expert"
+            name="Mr. Min Thet Paing"
+            desgination="Web Developer Expert"
             path="/team-details"
           />
           <TeamBoxTwo
             image="images/team/t-2-2.jpg"
-            name="Samuel Thomas"
-            desgination="Cheif Expert"
+            name="Mrs. Kyal Sin Lin Lei"
+            desgination="Marketing Expert"
             path="/team-details"
           />
           <TeamBoxTwo
             image="images/team/t-2-3.jpg"
-            name="William Lucas"
-            desgination="Design Expert"
+            name="Mr. Min Thurein"
+            desgination="UI/UX Designer Expert"
             path="/team-details"
           />
-          <TeamBoxTwo
-            image="images/team/t-2-4.jpg"
-            name="Daniel Matthew"
-            desgination="Developer"
-            path="/team-details"
-          />
+          
         </Slider>
       </div>
     </div>

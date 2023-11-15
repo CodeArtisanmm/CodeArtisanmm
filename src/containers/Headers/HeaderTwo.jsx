@@ -14,7 +14,7 @@ const HeaderTwo = () => (
   <header className="vs-header header-layout1">
     <HeaderTop>
       <HeaderTop.Left>
-        <p className="note_style1"><span className="note_title">Now Hiring:</span>Are you a motivated IT Support Engineer?</p>
+        <p className="note_style1"><span className="note_title">We are:</span>Code Artisan.</p>
       </HeaderTop.Left>
       <HeaderTop.Right>
         <IconLink className="header-social style-white" title="Follow Us On:">
@@ -35,17 +35,17 @@ const HeaderTwo = () => (
           <InfoMedia className="header-media col-auto"
             icon="fas fa-phone-alt"
             title="Call Anytime 24/7"
-            info={<a href="tel:+26921562148">+269 2156 2148</a>}
+            info={<a href="tel:+26921562148">09766036922</a>}
           />
           <InfoMedia className="header-media col-auto d-none d-lg-flex"
             icon="fas fa-envelope"
             title="Mail Us For Support"
-            info={<a href="mailto:info@example.com">info@example.com</a>}
+            info={<a href="mailto:info@example.com">info@codeartisanmm.com</a>}
           />
           <InfoMedia className="header-media col-auto d-none d-xl-flex"
             icon="fas fa-map-marker-alt"
             title="Office Address"
-            info="259 HGS, Hotland, USA"
+            info="Online"
           />
         </div>
       </div>

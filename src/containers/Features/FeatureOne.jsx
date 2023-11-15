@@ -1,8 +1,8 @@
 import React from 'react';
-import {FeatureBoxOne} from '../../components/';
+import { FeatureBoxOne } from '../../components/';
 import Slider from 'react-slick';
 
-const FeatureOne = ({className})=> {
+const FeatureOne = ({ className }) => {
 
   const settings = {
     autoplay: true,
@@ -15,42 +15,42 @@ const FeatureOne = ({className})=> {
     responsive: [
       {
         breakpoint: 1200,
-        settings: {          
+        settings: {
           slidesToShow: 2,
         }
       },
       {
         breakpoint: 992,
-        settings: {          
+        settings: {
           slidesToShow: 2,
         }
       },
       {
         breakpoint: 767,
-        settings: {          
+        settings: {
           slidesToShow: 1,
         }
       }
     ]
   };
-  
+
   return (
     <div className={`feature-wrap1 ${className || ''}`}>
-      <div className="container">   
+      <div className="container">
         <Slider className="row" {...settings}>
-          <FeatureBoxOne 
+          <FeatureBoxOne
             title="Development Services"
             text="Completely implement via highly efficient process improvements. engage high value before progressive data."
             image="images/icon/fe-1-1.png"
             path="/service-details"
           />
-          <FeatureBoxOne 
+          <FeatureBoxOne
             title="Marketing Services"
             text="Completely implement via highly efficient process improvements. engage high value before progressive data."
             image="images/icon/fe-1-2.png"
             path="/service-details"
           />
-          <FeatureBoxOne 
+          <FeatureBoxOne
             title="Consulting Services"
             text="Completely implement via highly efficient process improvements. engage high value before progressive data."
             image="images/icon/fe-1-3.png"
