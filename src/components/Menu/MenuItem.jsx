@@ -36,25 +36,12 @@ const MenuItem = ({ item, toggle }) => {
     }
   };
 
-  if (item.subMenu) {
-    return (
-      <li className="menu-item-has-children">
-        <Link to={item.path || "#"}>{item.name}</Link>
-        {toggle && <span className="vs-mean-expand" onClick={menuExpandHandler}></span>}
-        <ul className="sub-menu">
-          {item.subMenu.map((child, index) => (
-            <MenuItem key={index} item={child} />
-          ))}
-        </ul>
-      </li>
-    );
-  } else {
-    return (
-      <li>
-        <Link to={item.path || "#"}>{item.name}</Link>
-      </li>
-    );
-  }
+
+  return (
+    <li>
+      <Link to={item.path || "#"}>{item.name}</Link>
+    </li>
+  )
 }
 
 export default MenuItem;
