@@ -6,14 +6,14 @@ import {SidebarTwo} from '../';
 // FAQ Data
 import faqData from '../../data/faq.json';
 
-const ServiceSingle = ({...restProps})=> (
+const ServiceSingle = ({image,title,text,...restProps})=> (
   <div {...restProps}>
     <div className="container">
       <div className="row flex-row-reverse">
         <div className="col-lg-8">          
-          <div className="mb-3 pb-3"><img src="images/service/sr-d-1-1.jpg" alt="Project"/></div>
-          <h2 className="h4">IT Solution And Business</h2>
-          <p>Holisticly benchmark functional products before excellent methods of empowerment. Seamlessly visualize innovative web-readiness whereas extensive initiatives. Completely unleash frictionless data via end-to-end services. Continually unleash virtual e-tailers through magnetic core competencies. Interactively engage distributed alignments via focused alignments. Dynamically fabricate excellent innovation for go forward technology. Intrinsicly impact empowered scenarios after cost effective outsourcing. Synergistically productivate pandemic e-business rather than state of the art e-tailers. Continually expedite customized information with go forward potentialities.</p>
+          <div className="mb-3 pb-3"><img src={image} alt="Project"/></div>
+          <h2 className="h4">{title}</h2>
+          <p>{text}</p>
           <div className="row gx-0 mb-4 pb-2 pt-3">
             <div className="col-xl-6"><img src="images/service/sr-d-1-2.jpg" alt="project" className="w-100"/></div>
             <div className="col-xl-6">
@@ -31,10 +31,7 @@ const ServiceSingle = ({...restProps})=> (
           <h3 className="h5">The challenge of project</h3>
           <p>Interactively engage distributed alignments via focused alignments. Dynamically fabricate excellent innovation for go forward technology. Intrinsicly impact empowered scenarios after cost effective outsourcing. Synergistically productivate pandemic e-business rather than state of the art e-tailers.</p>
           <p>Completely unleash frictionless data via end-to-end services. Continually unleash virtual e-tailers through magnetic core competencies. Interactively engage distributed alignments via focused alignments.</p>
-          <div className="row pt-3 mb-30 pb-10 gy-30">
-            <div className="col-md-6"><img src="images/service/sr-d-1-3.jpg" alt="project"/></div>
-            <div className="col-md-6"><img src="images/service/sr-d-1-4.jpg" alt="project"/></div>
-          </div>
+          
           <Accordion defaultActiveKey={faqData[0].questionId} className="accordion-style1 layout2">
             {faqData.map(item => (
               <Accordion.Item key={item.questionId} eventKey={item.questionId}>

@@ -7,7 +7,7 @@ import {
 } from '../../components';
 
 const AboutSeven = ()=> (
-  <div className="background-image" style={{backgroundImage: 'url(images/bg/about-bg-5.png)'}}>
+  <div className="background-image" >
     <div className="container container-style1">
       <div className="row flex-row-reverse align-items-center gx-70">
         <div className="col-lg-6 col-xl">
