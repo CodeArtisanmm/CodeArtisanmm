@@ -30,7 +30,7 @@ const HeaderTwo = () => (
       <div className="menu-top">
         <div className="row justify-content-between align-items-center gx-sm-0">
           <div className="col">
-            <Logo image="images/logo.png" />
+            <Logo image="images/main-logo.png" />
           </div>
           <InfoMedia className="header-media col-auto"
             icon="fas fa-phone-alt"

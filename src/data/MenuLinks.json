@@ -13,6 +13,10 @@
     "path": "/service"
   },
   {
+    "name": "Our Team",
+    "path": "/team"
+  },
+  {
     "name": "Blog",
     "path": "/blog"
   },

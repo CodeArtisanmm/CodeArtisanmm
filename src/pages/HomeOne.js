@@ -28,14 +28,14 @@ const HomeOne = () => (
       <AboutOne className="space-bottom" />
     </div>
     <ServiceOne className="space-top space-extra-bottom" />
-    <CounterOne />
+    {/* <CounterOne /> */}
     <TeamOne className="space-top space-extra-bottom" />
     <FaqOne />
     <AboutTwo className="space-top space-extra-bottom" />
-    <CtaOne className="space" />
+    {/* <CtaOne className="space" /> */}
     <ProcessOne className="space-top space-extra-bottom" />
-    <TestimonialOne className="space-top space-extra-bottom" />
-    <BrandOne className="space-bottom" />
+    {/* <TestimonialOne className="space-top space-extra-bottom" /> */}
+    {/* <BrandOne className="space-bottom" /> */}
     <BlogTwo className="space-top space-extra-bottom" />
     <FooterOne />
     <ScrollTopBtn />

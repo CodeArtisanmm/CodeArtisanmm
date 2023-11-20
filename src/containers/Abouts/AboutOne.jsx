@@ -13,8 +13,8 @@ const AboutOne = ({ className }) => (
     <div className="container z-index-common">
       <div className="row gx-60">
         <div className="col-lg-6 col-xl-5 mb-50 mb-lg-0">
-          <ImageBoxOne imageOne="images/about/ab-1-1.jpg"
-            imageTwo="images/about/ab-1-2.jpg"
+          <ImageBoxOne imageOne="images/about/about-1.jpg"
+            imageTwo="images/about/about-2.jpg"
             video="https://www.dropbox.com/s/b4k0p5swok5l8t2/videoplayback.mp4?dl=1"
           />
         </div>
