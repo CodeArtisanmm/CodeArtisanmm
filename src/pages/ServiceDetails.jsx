@@ -9,7 +9,7 @@ const ServiceDetails = () => {
 
   // Find the service detail with the matching 'id'
   const selectedService = serviceDetailsData.find((service) => service.id === id);
-
+  console.log(selectedService.image)
   if (!selectedService) {
     return <div>Service detail not found!</div>;
   }
@@ -18,12 +18,13 @@ const ServiceDetails = () => {
     <Fragment>
       <Seo title={`Service Details - ${selectedService.title}`} />
       <HeaderOne />
-      <Breadcrumb pageName={`Services Details - ${selectedService.title}`} bgImage="images/breadcumb/breadcumb-bg.jpg" />
+      <Breadcrumb pageName={`Services Details - ${selectedService.title}`} bgImage="images/breadcumb/breadcumb-service-bg.jpg" />
       <ServiceSingle
         className="space-top space-extra-bottom"
         image={selectedService.image}
         title={selectedService.title}
         text={selectedService.text}
+        id={selectedService.id}
       />
       <FooterOne />
       <ScrollTopBtn />
