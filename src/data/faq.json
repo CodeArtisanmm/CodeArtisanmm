@@ -1,17 +1,20 @@
 [
   {
-    "questionId": "a",
-    "question": "Master Technology It Solution Services Making?",
-    "answer": "Assertively communicate multidisciplinary content through emerging skills for intermandated e-tailers. Rapidiously revolutionize emerging supply for interdependent portals. Monotonectally restore 24/365 leadership for high quality niche markets transform emerging mindshare..."
+    "id": 1,
+    "questionId": "s1",
+    "question": "What are the Key Benefits of Cloud Services?",
+    "answer": "Cloud services offer a range of benefits that have contributed to their widespread adoption across various industries. You may get some advantages as : Scalability, Cost savings, Accessibility, Reliability, Security and so on."
   },
   {
-    "questionId": "b",
-    "question": "Contrary to popular belief is not simply random text?",
-    "answer": "Assertively communicate multidisciplinary content through emerging skills for intermandated e-tailers. Rapidiously revolutionize emerging supply for interdependent portals. Monotonectally restore 24/365 leadership for high quality niche markets transform emerging mindshare..."
+    "id": 2,
+    "questionId": "s1",
+    "question": "Which Cloud Service Model is Right for Me?",
+    "answer": "We understand the differences between Infrastructure as a Service (IaaS), Platform as a Service (PaaS), and Software as a Service (SaaS) helps users choose the right service model for their needs."
   },
   {
-    "questionId": "c",
-    "question": "There are many variations of passages of available?",
-    "answer": "Assertively communicate multidisciplinary content through emerging skills for intermandated e-tailers. Rapidiously revolutionize emerging supply for interdependent portals. Monotonectally restore 24/365 leadership for high quality niche markets transform emerging mindshare..."
+    "id": 3,
+    "questionId": "s1",
+    "question": "What Tools and Services are Available for Cloud Management?",
+    "answer": "We do provide and use various tools and services that are available to help organizations effectively manage their cloud resources such as: Cloud Management Platforms (CMPs), Cloud Infrastructure Monitoring, Configuration Management, Cloud Security and Compliance, etc."
   }
 ]

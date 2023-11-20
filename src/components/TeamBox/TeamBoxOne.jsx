@@ -1,14 +1,14 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 
-const TeamBoxOne = ({path, desgination, image, name, className})=> (
+const TeamBoxOne = ({path, desgination, image, name, className, facebook, instagram, twiter, linkedin})=> (
   <div className={`team-style1 ${className || ''}`}>
     <div className="team-img">
       <Link to={path}><img src={image} alt="teamMember"/></Link>
       <div className="team-social">
-        <Link to="#"><i className="fab fa-facebook-f"/></Link>
-        <Link to="#"><i className="fab fa-twitter"/></Link>
-        <Link to="#"><i className="fab fa-instagram"/></Link>
+        <Link to={facebook}><i className="fab fa-facebook-f"/></Link>
+        <Link to={twiter}><i className="fab fa-twitter"/></Link>
+        <Link to={instagram}><i className="fab fa-instagram"/></Link>
         <Link to="#"><i className="fab fa-behance"/></Link>
         <Link to="#"><i className="fab fa-youtube"/></Link>
       </div>

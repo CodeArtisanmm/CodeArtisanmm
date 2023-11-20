@@ -55,6 +55,7 @@ const ServiceFour = ({...restProps})=> {
               icon={item.icon}
               title={item.title}
               text={item.text}
+              id={item.id}
             />
           ))}
         </Slider>

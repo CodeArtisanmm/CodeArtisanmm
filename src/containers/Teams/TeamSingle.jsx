@@ -9,8 +9,7 @@ import {
   FormThree
 } from '../../components';
 
-const TeamSingle = ({...restProps})=> { 
-
+const TeamSingle = ({member, ...restProps})=> { 
   const contactArea = useRef(null);
 
   const scrollHandler = (event)=> {
@@ -27,40 +26,40 @@ const TeamSingle = ({...restProps})=> {
       <div className="container">
         <div className="row gx-60 gy-2">        
           <div className="col-lg-5 mb-30">
-            <img src="images/team/d-d-1.jpg" alt="team-member"/>
+            <img src={member.image} alt="team-member"/>
           </div>        
           <div className="col-lg-7 col-xl-7 align-self-center mb-30">
             <div className="team-about">
-              <h3 className="team-name h4">Oliver William</h3>
-              <span className="team-degi">Founder & CEO</span>            
-              <p className="team-text">Continually utilize 24/365 bandwidth before real-time interfaces. Credibly grow team driven core competencies with pandemic e-commerce. Objectively initiate pandemic users with inexpensive methodologies. Collaboratively deliver bricks-and-clicks meta-services for bricks-and-clicks innovation streamline front-end experiences.</p>
+              <h3 className="team-name h4"> {member.name} </h3>
+              <span className="team-degi"> {member.desgination} </span>            
+              <p className="team-text"> {member.summary ? member.summary :  "No Data"} </p>
               <div className="row">
                 <div className="col-sm-6">
                   <InfoMedia className="team-media"
                     icon="fas fa-user"
                     title="Experience"
-                    info="More Than 10 Years"
+                    info={member.exp ?? ""}
                   />
                 </div>
                 <div className="col-sm-6">
                   <InfoMedia className="team-media"
                     icon="fas fa-phone-alt"
-                    title="Phone"
-                    info={<a href="tel:+2562145821456">+(256) 21458-21456</a>}
+                    title="Phone One"
+                    info={<a href={`tel:+959${member.phone}`}>+(959) {member.phoneone ?? ""} </a>}
                   />
                 </div>
                 <div className="col-sm-6">
                   <InfoMedia className="team-media"
                     icon="fas fa-envelope"
                     title="Email"
-                    info={<a href="mailto:info@example.com">info@example.com</a>}
+                    info={<a href="mailto:info@example.com"> {member.email ?? ""} </a>}
                   />
                 </div>
                 <div className="col-sm-6">
                   <InfoMedia className="team-media"
-                    icon="fas fa-fax"
-                    title="Fax"
-                    info={<a href="fax:+358.555.1234567">+358.555.1234567</a>}
+                    icon="fas fa-phone-alt"
+                    title="Phone Two"
+                    info={<a href={`tel:+959${member.phonetwo}`}> +(959) {member.phonetwo ?? ""}  </a>}
                   />
                 </div>
               </div>            
@@ -77,14 +76,13 @@ const TeamSingle = ({...restProps})=> {
           <div className="row gx-60 gy-3">
             <div className="col-lg-6">            
               <h3 className="h4 mb-3 pb-1">Personal Biography</h3>
-              <p className="pe-xxl-5">Dramatically reinvent worldwide process improvements rather than performance based e-business. Holisticly create competitive portals for compelling e-markets. Enthusiastically engage B2B channels through ethical processes initiate 2.0 applications.</p>
-              <p>Intrinsicly morph bricks-and-clicks e-tailers whereas economically sound results disseminate innovative core competencies</p>
+              <p className="pe-xxl-5"> {member.desc ? member.desc : "No Data"} </p>
             </div>
             <div className="col-lg-6">              
               <h3 className="h4 mb-3 pb-1">Professional Skills</h3>
-              <ProgressOne title="Business Security" now="65" />            
-              <ProgressOne title="Career Development" now="70" />            
-              <ProgressOne title="Business Inovation" now="90" />            
+              <ProgressOne title="Business Security" now={member.business_security} />            
+              <ProgressOne title="Career Development" now={member.career_development} />            
+              <ProgressOne title="Business Inovation" now={member.business_inovation} />            
             </div>
           </div>
         </div>      
