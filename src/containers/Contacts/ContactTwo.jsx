@@ -18,7 +18,7 @@ const ContactTwo = ({...restProps})=> (
                   <InfoMedia
                     icon="fal fa-phone-alt"
                     title="Phone Number & Email"
-                    info={<><a href="tel:+310259121563">+(959) 09766036922</a><a href="mailto:info@example.com">info@codeartisanmm.com</a></>}
+                    info={<><a href="tel:+959766036922">+(959) 09766036922</a><a href="mailto:info@codeartisanmm.com">info@codeartisanmm.com</a></>}
                   />
                   <InfoMedia
                     icon="far fa-map-marker-alt"
