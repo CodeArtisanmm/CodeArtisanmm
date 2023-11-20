@@ -9,7 +9,7 @@ import {
 
 const AboutOne = ({ className }) => (
   <div className={`position-relative ${className || ''}`}>
-    <div className="about-shape1 d-none d-xl-block">TechBiz</div>
+    <div className="about-shape1 d-none d-xl-block">CodeArtisan</div>
     <div className="container z-index-common">
       <div className="row gx-60">
         <div className="col-lg-6 col-xl-5 mb-50 mb-lg-0">

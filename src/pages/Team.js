@@ -1,5 +1,5 @@
-import React, {Fragment} from 'react';
-import {Seo, Breadcrumb, ScrollTopBtn} from '../components';
+import React, { Fragment } from 'react';
+import { Seo, Breadcrumb, ScrollTopBtn } from '../components';
 import {
   HeaderOne,
   TeamFour,
@@ -8,16 +8,16 @@ import {
   FooterOne
 } from '../containers';
 
-const Team = ()=> (
+const Team = () => (
   <Fragment>
     <Seo title="Team" />
     <HeaderOne />
-    <Breadcrumb pageName="Team" bgImage="images/breadcumb/breadcumb-bg.jpg" />
-    <TeamFour className="space-top space-extra-bottom"/>
-    <CtaOne className="space"/>
-    <AboutTwo className="space-top space-extra-bottom background-image" style={{backgroundImage: 'url(images/bg/skill-bg-2-1.jpg)'}} />
-    <FooterOne/>
-    <ScrollTopBtn/>
+    <Breadcrumb pageName="Team" bgImage="images/breadcumb/about-3.jpg" />
+    <TeamFour className="space-top space-extra-bottom" />
+    <CtaOne className="space" />
+    <AboutTwo className="space-top space-extra-bottom background-image" style={{ backgroundImage: 'url(images/bg/skill-bg-2-1.jpg)' }} />
+    <FooterOne />
+    <ScrollTopBtn />
   </Fragment>
 );
 

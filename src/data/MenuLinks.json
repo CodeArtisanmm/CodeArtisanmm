@@ -21,10 +21,6 @@
     "path": "/blog"
   },
   {
-    "name": "Pages",
-    "path": "/"
-  },
-  {
     "name": "Contact",
     "path": "/contact"
   }

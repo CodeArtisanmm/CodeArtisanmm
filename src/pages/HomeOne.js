@@ -36,7 +36,7 @@ const HomeOne = () => (
     <ProcessOne className="space-top space-extra-bottom" />
     {/* <TestimonialOne className="space-top space-extra-bottom" /> */}
     {/* <BrandOne className="space-bottom" /> */}
-    <BlogTwo className="space-top space-extra-bottom" />
+    {/* <BlogTwo className="space-top space-extra-bottom" /> */}
     <FooterOne />
     <ScrollTopBtn />
   </Fragment>

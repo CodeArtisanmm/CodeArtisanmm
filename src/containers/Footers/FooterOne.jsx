@@ -99,7 +99,7 @@ const FooterOne = () => (
     </div>
     <div className="copyright-wrap">
       <div className="container">
-        <p className="copyright-text">Copyright <i className="fal fa-copyright" /> 2022 <Link className="text-white" to="/">TechBiz</Link>. All rights reserved by <a className="text-white" href="https://themeforest.net/user/vecuro_themes">Vecuro</a>.</p>
+        <p className="copyright-text">Copyright <i className="fal fa-copyright" /> 2023 <Link className="text-white" to="/">CodeArtisan</Link>. All rights reserved by <a className="text-white" href="">CodeArtisan</a>.</p>
       </div>
     </div>
   </footer>

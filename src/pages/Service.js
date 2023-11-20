@@ -1,5 +1,5 @@
-import React, {Fragment} from 'react';
-import {Seo, Breadcrumb, ScrollTopBtn} from '../components';
+import React, { Fragment } from 'react';
+import { Seo, Breadcrumb, ScrollTopBtn } from '../components';
 import {
   HeaderOne,
   ServiceFive,
@@ -9,16 +9,16 @@ import {
   FooterOne
 } from '../containers';
 
-const Service = ()=> (
+const Service = () => (
   <Fragment>
     <Seo title="Services" />
     <HeaderOne />
-    <Breadcrumb pageName="Services" bgImage="images/breadcumb/breadcumb-bg.jpg" />
-    <ServiceFive className="space-top space-extra-bottom"/>
+    <Breadcrumb pageName="Services" bgImage="images/breadcumb/team.jpg" />
+    <ServiceFive className="space-top space-extra-bottom" />
 
-    <TestimonialOne className="space-top space-extra-bottom"/>
-    <FooterOne/>
-    <ScrollTopBtn/>
+    <TestimonialOne className="space-top space-extra-bottom" />
+    <FooterOne />
+    <ScrollTopBtn />
   </Fragment>
 );
 
