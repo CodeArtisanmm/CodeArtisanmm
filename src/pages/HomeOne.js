@@ -20,7 +20,7 @@ import {
 
 const HomeOne = () => (
   <Fragment>
-    <Seo title="Home One" />
+    <Seo title="Home Page" />
     <HeaderTwo />
     <HeroOne />
     <div className="background-image" style={{ backgroundImage: "url(images/bg/ab-bg-1-1.jpg)" }}>

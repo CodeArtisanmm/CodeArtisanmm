@@ -19,15 +19,14 @@ const FaqOne = ({ className }) => (
           <ImageBoxTwo
             imageOne="images/faq/faq-1.jpg"
             imageTwo="images/faq/faq-2.jpg"
-
           />
         </div>
         <div className="col-lg-6 align-self-center">
           <SecSubTitle className="text-white"><i className="fas fa-bring-forward" />Talk About Something</SecSubTitle>
           <SecTitle className="text-white mb-4 pb-2 h1">How can we help you?</SecTitle>
-          <Accordion defaultActiveKey={faqData[0].questionId} className="accordion-style1">
-            {faqData.map(item => (
-              <Accordion.Item key={item.questionId} eventKey={item.questionId}>
+          <Accordion defaultActiveKey="0" className="accordion-style1">
+            {faqData.map((item, key) => (
+              <Accordion.Item key={item.questionId} eventKey={key}>
                 <Accordion.Header>{item.question}</Accordion.Header>
                 <Accordion.Body><p>{item.answer}</p></Accordion.Body>
               </Accordion.Item>

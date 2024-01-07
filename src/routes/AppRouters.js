@@ -40,8 +40,8 @@ const AppRouters = () => (
   <Fragment>
     <Routes>
       <Route path="/" exact element={<HomeOne />} />
-      <Route path="/home-two" exact element={<HomeTwo />} />
-      <Route path="/home-three" exact element={<HomeThree />} />
+      {/* <Route path="/home-two" exact element={<HomeTwo />} />
+      <Route path="/home-three" exact element={<HomeThree />} /> */}
       <Route path="/about" exact element={<About />} />
       <Route path="/price-plan" exact element={<PricePlan />} />
       <Route path="/service" exact element={<Service />} />

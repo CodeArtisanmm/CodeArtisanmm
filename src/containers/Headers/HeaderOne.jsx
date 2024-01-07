@@ -12,18 +12,18 @@ import {
 const HeaderOne = () => (
   <header className="vs-header header-layout1">
     <HeaderTop>
-      <HeaderTop.Left>
+      {/* <HeaderTop.Left>
         <p className="note_style1"><span className="note_title">Now Hiring:</span>Are you a motivated IT Support Engineer?</p>
-      </HeaderTop.Left>
+      </HeaderTop.Left> */}
       <HeaderTop.Right>
-        <p className="note_style1"><i className="fal fa-clock" /><span className="note_title">Office Hours:</span> 08:00am-6:00pm</p>
+        <p className="note_style1"><i className="fal fa-clock" /><span className="note_title">Office Hours:</span> 24 hours </p>
       </HeaderTop.Right>
     </HeaderTop>
     <div className="container">
       <div className="menu-top">
         <div className="row justify-content-between align-items-center gx-sm-0">
           <div className="col">
-            <Logo image="images/main-logo.png" />
+            <Logo image="/images/main-logo.png" />
           </div>
           <InfoMedia className="header-media col-auto"
             icon="fas fa-phone-alt"

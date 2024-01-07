@@ -17,10 +17,6 @@
     "path": "/team"
   },
   {
-    "name": "Blog",
-    "path": "/blog"
-  },
-  {
     "name": "Contact",
     "path": "/contact"
   }
