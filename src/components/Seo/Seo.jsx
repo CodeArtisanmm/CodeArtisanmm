@@ -1,10 +1,10 @@
-import React from 'react';
+import React from "react";
 import { Helmet } from "react-helmet";
 
 const SEO = ({ title }) => {
   return (
     <Helmet>
-      <title>Codeartisan.com.mm</title>
+      <title> CodeArtisan - {title} </title>
     </Helmet>
   );
 };

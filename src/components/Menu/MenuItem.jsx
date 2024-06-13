@@ -1,8 +1,28 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import { getClosest, getSiblings, slideToggle, slideUp } from '../../utils/utils';
+import React from "react";
+import { NavLink, useLocation } from "react-router-dom";
+import {
+  getClosest,
+  getSiblings,
+  slideToggle,
+  slideUp,
+} from "../../utils/utils";
+import { useTranslation } from "react-i18next";
 
 const MenuItem = ({ item, toggle }) => {
+  const location = useLocation();
+  const { t } = useTranslation();
+
+  const isActive = (path, location) => {
+    if (location.pathname === path) {
+      return true;
+    }
+
+    if (path !== "/" && location.pathname.includes(path)) {
+      return true;
+    }
+
+    return false;
+  };
 
   // Submenu Toggle Handler
   const menuExpandHandler = (e) => {
@@ -36,12 +56,16 @@ const MenuItem = ({ item, toggle }) => {
     }
   };
 
-
   return (
     <li>
-      <Link to={item.path || "#"}>{item.name}</Link>
+      <NavLink
+        to={item.path || "#"}
+        className={isActive(item.path, location) ? "nav-active" : ""}
+      >
+        {t(`navbar.${item.name}`)}
+      </NavLink>
     </li>
-  )
-}
+  );
+};
 
 export default MenuItem;

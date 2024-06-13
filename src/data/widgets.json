@@ -54,16 +54,8 @@
       "path": "/about"
     },
     {
-      "name": "Our Packages",
-      "path": "/price-plan"
-    },
-    {
       "name": "Meet The Teams",
       "path": "/team"
-    },
-    {
-      "name": "Our Projects",
-      "path": "/project"
     },
     {
       "name": "Contact Us",
@@ -82,10 +74,6 @@
     {
       "name": "Our Story",
       "path": "/about"
-    },
-    {
-      "name": "Latest Posts",
-      "path": "/blog"
     },
     {
       "name": "Help Center",
