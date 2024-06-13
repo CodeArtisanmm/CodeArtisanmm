@@ -1,0 +1,34 @@
+{
+    "welcome" : "CodeAritsan မှ ကြိုဆိုပါ၏",
+    "read-more" : "ပိုမိုဖတ်ရှုရန်",
+    "about-us" : "ကျွန်တော်တို့အကြောင်း",
+    "navbar" : {
+        "home" : "မူလ",
+        "about" : "ကျွန်တော်တို့ အကြောင်း",
+        "service" : "ဝန်ဆောင်မှုများ",
+        "team" : "အဖွဲ့သားများ",
+        "contact" : "ဆက်သွယ်မည်"
+    },
+    "home" : {
+        "header" : {
+            "phone" : "အချိန်မရွေး Viber ကနေ ဆက်သွယ်လိုက်ပါ",
+            "email" : "သိလိုသည်များကို မေးမြန်းလိုက်ပါ",
+            "address" : "လိပ်စာ",
+            "online-service" : "အွန်လိုင်း ဝန်ဆောင်မှု"
+        },
+        "service" : {
+            "development" : {
+                "title" : "Development ဝန်ဆောင်မှု",
+                "description" : ""
+            },
+            "marketing" : {
+                "title" : "ဒစ်ဂျစ်တယ် မားကတ်တင်း ဝန်ဆောင်မှု",
+                "description" : ""
+            },
+            "consulting" : {
+                "title" :  "အခမဲ့ဆွေးနွေးခြင်း ဝန်ဆောင်မှု",
+                "description" : ""
+            }
+        }
+    }
+}
