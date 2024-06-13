@@ -1,0 +1,30 @@
+# .github/workflows/merge.yml
+name: Merge Newstein into Main
+
+on:
+  push:
+    branches:
+      - NewStein # replace with your branch name
+
+jobs:
+  merge:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
+      - name: Configure Git
+        run: |
+          git config --global user.name 'github-actions'
+          git config --global user.email 'github-actions@github.com'
+
+      - name: Merge Newstein into main
+        run: |
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+          git fetch origin main
+          git checkout main
+          git merge origin/Newstein
+          git push origin main
