@@ -1,10 +1,10 @@
 # .github/workflows/merge.yml
-name: Merge Newstein into Main
+name: Merge NewStein into Main
 
 on:
   push:
     branches:
-      - Newstein # replace with your branch name
+      - NewStein # replace with your branch name
 
 jobs:
   merge:
@@ -21,14 +21,14 @@ jobs:
           git config --global user.name 'github-actions'
           git config --global user.email 'github-actions@github.com'
 
-      - name: Merge Newstein into main
+      - name: Merge NewStein into main
         run: |
           git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
           git fetch origin main
           git checkout main
-          git merge --no-commit --no-ff origin/Newstein || true # Try to merge, ignore exit code
+          git merge --no-commit --no-ff origin/NewStein || true # Try to merge, ignore exit code
           if [ $? -eq 0 ]; then
-            git commit -m "Merge Newstein into main"
+            git commit -m "Merge NewStein into main"
             git push origin main
           else
             echo "Merge conflict! Manual intervention required."
