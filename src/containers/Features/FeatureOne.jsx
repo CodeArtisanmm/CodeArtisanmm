@@ -42,19 +42,31 @@ const FeatureOne = ({ className }) => {
         <Slider className="row" {...settings}>
           <FeatureBoxOne
             title={t("home.service.development.title")}
-            text="Completely implement via highly efficient process improvements. engage high value before progressive data."
+            text={t("home.service.development.description")}
             image="images/icon/fe-1-1.png"
             path="/service-details/1"
           />
           <FeatureBoxOne
             title={t("home.service.marketing.title")}
-            text="Completely implement via highly efficient process improvements. engage high value before progressive data."
+            text={t("home.service.marketing.description")}
             image="images/icon/fe-1-2.png"
             path="/service-details/2"
           />
           <FeatureBoxOne
             title={t("home.service.consulting.title")}
-            text="Completely implement via highly efficient process improvements. engage high value before progressive data."
+            text={t("home.service.consulting.description")}
+            image="images/icon/fe-1-3.png"
+            path="/service-details/3"
+          />
+          <FeatureBoxOne
+            title={t("home.service.maintainence.title")}
+            text={t("home.service.maintainence.description")}
+            image="images/icon/fe-1-3.png"
+            path="/service-details/3"
+          />
+          <FeatureBoxOne
+            title={t("home.service.webhosting.title")}
+            text={t("home.service.webhosting.description")}
             image="images/icon/fe-1-3.png"
             path="/service-details/3"
           />

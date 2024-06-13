@@ -65,3 +65,17 @@
 .nav-active {
   color : $theme-color !important;
 }
+
+.selected {
+  border: 2px solid $theme-color !important;
+  border-radius: 5px;
+}
+
+.tick {
+  position: absolute;
+  top: -14px;
+  left: -12px;
+  width: 20px;
+  height: 20px;
+  background-color: white;
+}
