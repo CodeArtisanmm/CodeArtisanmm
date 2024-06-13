@@ -42,7 +42,7 @@ jobs:
         with:
           script: |
             const { execSync } = require('child_process');
-            const result = execSync('git fetch origin && git checkout main && git merge origin/NewStein', { encoding: 'utf-8' });
+            const result = execSync('git fetch origin && git merge --allow-unrelated-histories origin/Newstein', { encoding: 'utf-8' });
             console.log(result);
 
       - name: Cache node_modules after merge
