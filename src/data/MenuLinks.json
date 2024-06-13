@@ -1,23 +1,23 @@
 [
   {
-    "name": "Home",
+    "name": "home",
     "path": "/",
     "subMenu": []
   },
   {
-    "name": "About Us",
+    "name": "about",
     "path": "/about"
   },
   {
-    "name": "Service",
+    "name": "service",
     "path": "/service"
   },
   {
-    "name": "Our Team",
+    "name": "team",
     "path": "/team"
   },
   {
-    "name": "Contact",
+    "name": "contact",
     "path": "/contact"
   }
 ]

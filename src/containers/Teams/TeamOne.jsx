@@ -1,7 +1,7 @@
-import React from 'react';
-import Slider from 'react-slick';
-import { TitleWrap, SecSubTitle, SecTitle, TeamBoxOne } from '../../components';
-import data from '../../data/team.json'
+import React from "react";
+import Slider from "react-slick";
+import { TitleWrap, SecSubTitle, SecTitle, TeamBoxOne } from "../../components";
+import data from "../../data/team.json";
 
 const TeamOne = ({ ...restProps }) => {
   const settings = {
@@ -17,21 +17,21 @@ const TeamOne = ({ ...restProps }) => {
         breakpoint: 1200,
         settings: {
           slidesToShow: 3,
-        }
+        },
       },
       {
         breakpoint: 992,
         settings: {
           slidesToShow: 2,
-        }
+        },
       },
       {
         breakpoint: 767,
         settings: {
           slidesToShow: 1,
-        }
-      }
-    ]
+        },
+      },
+    ],
   };
 
   return (
@@ -42,23 +42,23 @@ const TeamOne = ({ ...restProps }) => {
           <SecTitle className="h1">We Have Expert Team</SecTitle>
         </TitleWrap>
         <Slider className="row" {...settings}>
-          {
-            data.map(item => (
-              <TeamBoxOne path={`/team-details/${item.id}`}
-                name={item.name}
-                desgination={item.desgination}
-                image={item.image}
-                facebook = {item.facebook}
-                instagram = {item.instagram}
-                linkedin = {item.linkedin}
-                twiter = {item.twiter}
-              />
-            ))
-          }
+          {data.map((item) => (
+            <TeamBoxOne
+              path={`/team-details/${item.id}`}
+              key={item.id}
+              name={item.name}
+              desgination={item.desgination}
+              image={item.image}
+              facebook={item.facebook}
+              instagram={item.instagram}
+              linkedin={item.linkedin}
+              twiter={item.twiter}
+            />
+          ))}
         </Slider>
       </div>
     </div>
   );
-}
+};
 
 export default TeamOne;

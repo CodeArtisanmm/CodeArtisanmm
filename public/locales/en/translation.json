@@ -1,0 +1,34 @@
+{
+    "welcome" : "Welcome to CodeArtisan",
+    "read-more" : "Read More",
+    "about-us" : "About Us",
+    "navbar" : {
+        "home" : "Home",
+        "about" : "About Us",
+        "service" : "Service",
+        "team" : "Our Team",
+        "contact" : "Contact Us"
+    },
+    "home" : {
+        "header" : {
+            "phone" : "Contact Anytime on Viber",
+            "email" : "Ask Anything You needs",
+            "address" : "Address",
+            "online-service" : "Online Service"
+        },
+        "service" : {
+            "development" : {
+                "title" : "Development Service",
+                "description" : ""
+            },
+            "marketing" : {
+                "title" : "Digital Marketing Service",
+                "description" : ""
+            },
+            "consulting" : {
+                "title" :  "Free Consulting Service",
+                "description" : ""
+            }
+        }
+    }
+}
