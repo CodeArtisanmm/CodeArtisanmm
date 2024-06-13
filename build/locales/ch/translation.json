@@ -1,0 +1,42 @@
+{
+    "welcome": "欢迎来到CodeArtisan",
+    "read-more": "了解更多",
+    "about-us": "关于我们",
+    "navbar": {
+        "home": "首页",
+        "about": "关于我们",
+        "service": "服务",
+        "team": "我们的团队",
+        "contact": "联系我们"
+    },
+    "home": {
+        "header": {
+            "phone": "随时通过Viber联系",
+            "email": "有任何需求可以询问",
+            "address": "地址",
+            "online-service": "在线服务"
+        },
+        "service": {
+            "development": {
+                "title": "开发服务",
+                "description": "我们根据您的需求定制移动和网页应用程序，有效地帮助您实现愿景。"
+            },
+            "marketing": {
+                "title": "数字营销服务",
+                "description": "我们的数字营销服务通过有针对性的电子邮件活动、战略性SEO和吸引人的社交媒体策略提升您的在线存在。"
+            },
+            "consulting": {
+                "title": "免费咨询服务",
+                "description": "获得免费咨询，讨论您的数字目标和挑战。让我们为您制定个性化的策略，推动您的业务向前发展。"
+            },
+            "maintainence": {
+                "title": "维护和支持服务",
+                "description": "通过我们的维护和支持服务，确保您的网站保持最新、安全和优化。您专注于业务，我们为您的数字存在保驾护航。"
+            },
+            "webhosting": {
+                "title": "网站托管和域名注册服务",
+                "description": "获得安全可靠的托管服务。快速轻松地为您的企业找到理想的域名。"
+            }
+        }
+    }
+}

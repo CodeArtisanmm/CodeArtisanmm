@@ -19,15 +19,23 @@
         "service" : {
             "development" : {
                 "title" : "Development Service",
-                "description" : ""
+                "description" : "We craft bespoke mobile and web applications tailored to your needs, helping you bring your vision to life effectively."
             },
             "marketing" : {
                 "title" : "Digital Marketing Service",
-                "description" : ""
+                "description" : "Our digital marketing services boost your online presence through targeted email campaigns, strategic SEO, and engaging social media strategies."
             },
             "consulting" : {
                 "title" :  "Free Consulting Service",
-                "description" : ""
+                "description" : "Get a free consultation to discuss your digital goals and challenges. Let us create a personalized strategy to propel your business forward."
+            },
+            "maintainence" : {
+                "title" : "Maintenance and Support Service",
+                "description" : "Ensure your website stays up-to-date, secure, and optimized with our maintenance and support services. Focus on your business while we take care of your digital presence."
+            },
+            "webhosting" : {
+                "title" : "Web Hosting and Domain Registeration Service",
+                "description" : "Get secure and reliable hosting. Find the perfect domain for your business quickly and easily."
             }
         }
     }
