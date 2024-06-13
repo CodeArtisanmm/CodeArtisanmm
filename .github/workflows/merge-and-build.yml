@@ -4,11 +4,11 @@ on:
   push:
     branches:
       - main
-      - Newstein
+      - NewStein
 
 jobs:
   merge-and-build:
-    if: github.ref == 'refs/heads/Newstein' # Run only if the push is on the Newstein branch
+    if: github.ref == 'refs/heads/NewStein' # Run only if the push is on the NewStein branch
     runs-on: ubuntu-latest
 
     steps:
@@ -37,12 +37,12 @@ jobs:
       - name: Build the project
         run: CI=false npm run build
 
-      - name: Merge Newstein into main
+      - name: Merge NewStein into main
         uses: actions/github-script@v5
         with:
           script: |
             const { execSync } = require('child_process');
-            const result = execSync('git fetch origin && git checkout main && git merge origin/Newstein', { encoding: 'utf-8' });
+            const result = execSync('git fetch origin && git checkout main && git merge origin/NewStein', { encoding: 'utf-8' });
             console.log(result);
 
       - name: Cache node_modules after merge
