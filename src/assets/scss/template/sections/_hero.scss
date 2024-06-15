@@ -56,6 +56,17 @@
     @extend .animated;
   }
 
+  .hero-title-my {
+    color: $white-color;
+    text-transform: uppercase;
+    margin: -0.2em 0 20px 0;
+    font-size: 40px;
+    line-height: 2.0;
+    animation-delay: 0s;
+    letter-spacing : 0.1em;
+    @extend .animated;
+  }
+
   .hero-text {
     color: $white-color;
     max-width: 690px;

@@ -2,6 +2,8 @@
     "welcome" : "Welcome to CodeArtisan",
     "read-more" : "Read More",
     "about-us" : "About Us",
+    "contact-us" : "Contact Us",
+    "our-service" : "Our Service",
     "navbar" : {
         "home" : "Home",
         "about" : "About Us",
@@ -15,6 +17,20 @@
             "email" : "Ask Anything You needs",
             "address" : "Address",
             "online-service" : "Online Service"
+        },
+        "banner" : {
+            "first" : {
+                "title" : "Welcome to Our Code World",
+                "description" : "At CodeArtisan, our team brings a wealth of knowledge and innovative solutions to the table. We're dedicated to delivering high-quality digital solutions that cater to your unique needs, whether you're a company or an individual."
+            },
+            "second" : {
+                "title" : "Explore our innovative web solutions tailored to your business needs!!!",
+                "description" : "Your goals are our priority. We offer customized services to meet the specific needs of each client, ensuring personalized attention and strategies that drive success in application development, digital marketing, and more."
+            },
+            "third" : {
+                "title" : "Unlock your online potential with our free consultation service!",
+                "description" : "Let's brainstorm ideas, discuss strategies, and pave the way for your online presence to thrive.Schedule your free consultation today and embark on a journey to digital excellence"
+            }
         },
         "service" : {
             "development" : {

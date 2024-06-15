@@ -1,10 +1,11 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 
-const SEO = ({ title }) => {
+const SEO = ({ title, description }) => {
   return (
     <Helmet>
       <title> CodeArtisan - {title} </title>
+      <meta name="description" content={description} />
     </Helmet>
   );
 };
