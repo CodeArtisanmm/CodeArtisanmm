@@ -54,5 +54,13 @@
                 "description" : "Get secure and reliable hosting. Find the perfect domain for your business quickly and easily."
             }
         }
+    },
+    "about" : {
+        "title-about" : "Turning Your Ideas Into Digital Realities",
+        "title-home" : "CHOOSING THE RIGHT BUSINESS PARTNER IS CRUCIAL!!!",
+        "first-para" : "CodeArtisan is an Online Digital Solution Agency and is structured with technical experts from various fields. We are an agency responsible for mobile application services, website related services, digital marketing services and web hosting services, and our goal is to deliver the best digital solutions for your business. We are an independent agency and are not affiliated with any organization, so we are always ready to provide services for a company, an individual or a project. In addition, we can take responsibility for the entire project from start to finish and provide the best service even for a single service that is required.",
+        "second-para" : "​​Our team members are experts in various fields of technology and are full of experience and knowledge. Mobile application experts, Website experts, designers, In addition to server experts, technicians from all other fields are working as freelancers at CodeArtisan. Because we have the best communication between experts who are really interested in technology, it is not wrong if it is a place where you can create good digital products. Therefore, we invite you to contact us to push the limits and shape your online existence in the best possible way.",
+        "24hours-service" : "24 HOURS SERVICE AVAILABLE",
+        "contact-us-on-viber" : "Contact Us On Viber"
     }
 }
