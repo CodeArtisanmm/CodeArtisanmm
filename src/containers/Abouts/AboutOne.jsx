@@ -27,12 +27,12 @@ const AboutOne = ({ className }) => {
               <i className="fas fa-bring-forward" />
               Get best It solution 2024
             </SecSubTitle>
-            <SecTitle className="h1">{t("about.title-home")}</SecTitle>
-            <p className="mb-4 mt-1 pb-3">{t("about.first-para")}</p>
+            <SecTitle className="h1">{t("home.about.title-home")}</SecTitle>
+            <p className="mb-4 mt-1 pb-3">{t("home.about.first-para")}</p>
             <InfoMedia
               image="images/icon/tel-1-1.png"
-              title={t("about.24hours-service")}
-              info={`${t("about.contact-us-on-viber")} +959 770 139 207`}
+              title={t("home.about.24hours-service")}
+              info={`${t("home.about.contact-us-on-viber")} +959 770 139 207`}
               className="call-media"
             />
             <Button path="/about">

@@ -2,6 +2,7 @@ import React from "react";
 import Slider from "react-slick";
 import { TitleWrap, SecSubTitle, SecTitle, TeamBoxOne } from "../../components";
 import data from "../../data/team.json";
+import { useTranslation } from "react-i18next";
 
 const TeamOne = ({ ...restProps }) => {
   const settings = {
@@ -34,12 +35,14 @@ const TeamOne = ({ ...restProps }) => {
     ],
   };
 
+  const { t } = useTranslation();
+
   return (
     <div {...restProps}>
       <div className="container">
         <TitleWrap className="text-center">
-          <SecSubTitle>Great Team Members</SecSubTitle>
-          <SecTitle className="h1">We Have Expert Team</SecTitle>
+          <SecSubTitle> {t("home.team.header")} </SecSubTitle>
+          <SecTitle className="h1"> {t("home.team.subheader")} </SecTitle>
         </TitleWrap>
         <Slider className="row" {...settings}>
           {data.map((item) => (
