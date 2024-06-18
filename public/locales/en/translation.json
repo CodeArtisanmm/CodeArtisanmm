@@ -81,6 +81,41 @@
                 "question" : "What information will you provide during the free consultation?",
                 "answer" : "The free consultation service is an opportunity for the first contact between CodeArtisan and your business. During this time, which will last about an hour, our CodeArtisan team members will discuss for free the technical topics you want to know, the Digital Solution that will suit your business, and where to get the necessary resources at a low cost."
             }
+        },
+        "process" : {
+            "header" : "Our Process",
+            "subheader" : "Work with planning",
+            "consultation" : {
+                "title" : "Initial Consultation",
+                "description" : "Discuss client requirements, goals, and preferences. Provide an overview of services, technologies, and design options"
+            },
+            "signing" : {
+                "title" : "Contract Signing",
+                "description" : "Draft a formal contract specifying project scope, deliverables, payment terms, and deadlines.Both parties review, negotiate if necessary, and sign the contract."
+            },
+            "code" : {
+                "title" : "Craft & Code",
+                "description" : "Craft & Code Our expert team meticulously designs and codes, sculpting the digital masterpiece that is your Tailored needs, combining creativity and technology for maximum impact."
+            },
+            "deliver" : {
+                "title" : "Deliver & Optimize",
+                "description" : "We lift the curtains on your web project, fine-tuning and optimizing every detail to make sure your online presence shines bright and stays ahead of the digital move"
+            }
         }
+    },
+    "footer" : {
+        "office-address" : "Office Address",
+        "working-hours" : "Working Hours",
+        "working-time" : "Every Day 8am - 22pm",
+        "aboutus" : "CodeArtisan is an independent digital agency offering expert services in mobile apps, websites, digital marketing, and web hosting. We deliver top-notch solutions and manage projects from start to finish for businesses and individuals",
+        "meet-the-team" : "Meet the team",
+        "about-us" : "About Us",
+        "contact-us" : "Contact Us",
+        "privacy-policy" : "Privacy Policy",
+        "explore" : "Explore",
+        "what-we-offer" : "What we offer",
+        "our-story" : "Our Story",
+        "help-center" : "Help Center",
+        "our-mission" : "Our Mission"
     }
 }

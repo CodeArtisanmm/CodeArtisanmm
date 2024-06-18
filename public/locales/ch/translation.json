@@ -81,6 +81,41 @@
                 "question" : "在免费咨询期间您将提供哪些信息？",
                 "answer" : "免费咨询服务是 CodeArtisan 与您的企业首次接触的机会。在此期间，大约持续一小时，我们的 CodeArtisan 团队成员将免费讨论您想要了解的技术主题、适合您企业的数字解决方案以及如何以低成本获得必要的资源。"
             }
+        },
+        "process" : {
+            "header" : "我们的流程",
+            "subheader" : "进行规划",
+            "consultation" : {
+                "title" : "初步咨询",
+                "description" : "讨论客户要求、目标和偏好。概述服务、技术和设计选项"
+            },
+            "signing" : {
+                "title" : "合同签订",
+                "description" : "起草正式合同，明确项目范围、交付成果、付款条件和截止日期。双方审查、必要时进行协商，然后签署合同。"
+            },
+            "code" : {
+                "title" : "工艺与代码",
+                "description" : "工艺与编码我们的专家团队精心设计和编码，打造满足您定制需求的数字杰作，将创造力与技术相结合，以产生最大的影响。"
+            },
+            "deliver" : {
+                "title" : "交付和优化",
+                "description" : "我们为您的网络项目揭开帷幕，对每个细节进行微调和优化，以确保您的在线形象闪耀全场，并始终走在数字化发展的前沿"
+            }
         }
-    }
+    },
+    "footer" : {
+        "office-address" : "办公地址",
+        "working-hours" : "工作时间",
+        "working-time" : "每天 8:00 - 22:00",
+        "aboutus" : "CodeArtisan 是一家独立的数字机构，提供移动应用程序、网站、数字营销和网络托管方面的专业服务。我们为企业和个人提供一流的解决方案，并从头到尾管理项目。",
+        "meet-the-team" : "团队介绍",
+        "privacy-policy" : "隐私政策",
+        "about-us" : "关于我们",
+        "contact-us" : "联系我们",
+        "explore" : "探索",
+        "what-we-offer" : "我们提供的服务",
+        "our-story" : "我们的故事",
+        "help-center" : "帮助中心",
+        "our-mission" : "我们的使命"
+    }    
 }

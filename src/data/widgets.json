@@ -50,37 +50,37 @@
   ],
   "pageList": [
     {
-      "name": "About Us",
+      "name": "about-us",
       "path": "/about"
     },
     {
-      "name": "Meet The Teams",
+      "name": "meet-the-team",
       "path": "/team"
     },
     {
-      "name": "Contact Us",
+      "name": "contact-us",
       "path": "/contact"
     },
     {
-      "name": "Privacy Policy",
+      "name": "privacy-policy",
       "path": "/"
     }
   ],
   "exploreLinks": [
     {
-      "name": "What we Offer",
+      "name": "what-we-offer",
       "path": "/service"
     },
     {
-      "name": "Our Story",
+      "name": "our-story",
       "path": "/about"
     },
     {
-      "name": "Help Center",
+      "name": "help-center",
       "path": "/contact"
     },
     {
-      "name": "Our Mission",
+      "name": "our-mission",
       "path": "/about"
     }
   ],

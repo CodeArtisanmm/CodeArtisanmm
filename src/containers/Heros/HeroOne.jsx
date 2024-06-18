@@ -14,18 +14,18 @@ const HeroOne = () => {
       btn2: { text: t("contact-us"), path: "/contact" },
     },
     {
-      image: "images/hero/hero-1-2.jpg",
-      title: <>{t("home.banner.second.title")}</>,
-      text: t("home.banner.second.description"),
-      btn1: { text: t("about-us"), path: "/about" },
-      btn2: { text: t("our-service"), path: "/service" },
-    },
-    {
       image: "images/hero/hero-1-3.jpg",
       title: <>{t("home.banner.third.title")}</>,
       text: t("home.banner.third.description"),
       btn1: { text: t("about-us"), path: "/about" },
       btn2: { text: t("contact-us"), path: "/contact" },
+    },
+    {
+      image: "images/hero/hero-1-2.jpg",
+      title: <>{t("home.banner.second.title")}</>,
+      text: t("home.banner.second.description"),
+      btn1: { text: t("about-us"), path: "/about" },
+      btn2: { text: t("our-service"), path: "/service" },
     },
   ];
 
