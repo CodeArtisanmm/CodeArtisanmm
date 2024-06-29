@@ -1,20 +1,17 @@
-import React, { Fragment } from 'react';
-import { Seo, Breadcrumb, ScrollTopBtn } from '../components';
+import React, { Fragment } from "react";
+import { Seo, Breadcrumb, ScrollTopBtn } from "../components";
 import {
-  HeaderOne,
   ServiceFour,
   AboutSeven,
   TeamTwo,
-  TestimonialThree,
-  CtaOne,
-  BlogFour,
-  FooterOne
-} from '../containers';
+  FooterOne,
+  HeaderTwo,
+} from "../containers";
 
 const About = () => (
   <Fragment>
     <Seo title="About Us" />
-    <HeaderOne />
+    <HeaderTwo />
     <Breadcrumb pageName="About Us" bgImage="images/breadcumb/about-3.jpg" />
     <ServiceFour className="space-top space-extra-bottom" />
     <AboutSeven />

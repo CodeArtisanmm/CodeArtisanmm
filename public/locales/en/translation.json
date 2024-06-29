@@ -9,7 +9,16 @@
         "about" : "About Us",
         "service" : "Service",
         "team" : "Our Team",
-        "contact" : "Contact Us"
+        "contact" : "Contact Us",
+        "web-development" : "Website Development",
+        "app-development" : "Application Development",
+        "domain-hosting" : "Domain Registeration and Hosting",
+        "digital-marketing" : "Digital Marketing",
+        "maintainence" : "Maintainence and Support",
+        "free-consultation" : "Free Consultation",
+        "web-solution" : "Web Solution",
+        "domain-registeration" : "Domain Registeration",
+        "hosting" : "Web Hosting"
     },
     "home" : {
         "header" : {
@@ -53,6 +62,54 @@
                 "title" : "Web Hosting and Domain Registeration Service",
                 "description" : "Get secure and reliable hosting. Find the perfect domain for your business quickly and easily."
             }
+        },
+        "about" : {
+            "title-about" : "Turning Your Ideas Into Digital Realities",
+            "title-home" : "CHOOSING THE RIGHT BUSINESS PARTNER IS CRUCIAL!!!",
+            "first-para" : "CodeArtisan is an Online Digital Solution Agency and is structured with technical experts from various fields. We are an agency responsible for mobile application services, website related services, digital marketing services and web hosting services, and our goal is to deliver the best digital solutions for your business. We are an independent agency and are not affiliated with any organization, so we are always ready to provide services for a company, an individual or a project. In addition, we can take responsibility for the entire project from start to finish and provide the best service even for a single service that is required.",
+            "second-para" : "​​Our team members are experts in various fields of technology and are full of experience and knowledge. Mobile application experts, Website experts, designers, In addition to server experts, technicians from all other fields are working as freelancers at CodeArtisan. Because we have the best communication between experts who are really interested in technology, it is not wrong if it is a place where you can create good digital products. Therefore, we invite you to contact us to push the limits and shape your online existence in the best possible way.",
+            "24hours-service" : "24 HOURS SERVICE AVAILABLE",
+            "contact-us-on-viber" : "Contact Us On Viber"
+        },
+        "team" : {
+            "header" : "Great Team Members",
+            "subheader" : "We have expert team"
+        },
+        "faq" : {
+            "header" : "Talk about something",
+            "subheader" : "How can we help you?",
+            "one" : {
+                "question" : "What does One Stop Service include?",
+                "answer" : "One Stop Service is a service that takes responsibility for the entire project from start to finish. In this service, we will take care of everything from buying a domain to the last time it goes online, and we will also provide customer training and maintenance service for free for up to 6 months.​​"
+            },
+            "two" : {
+                "question" : "Is it permissible to select only one service?",
+                "answer" : "Yes, we at CodeArtisan provide one-stop service, and if you only request a design service or a maintenance service from your side, we will provide the best service.​​"
+            },
+            "three" : {
+                "question" : "What information will you provide during the free consultation?",
+                "answer" : "The free consultation service is an opportunity for the first contact between CodeArtisan and your business. During this time, which will last about an hour, our CodeArtisan team members will discuss for free the technical topics you want to know, the Digital Solution that will suit your business, and where to get the necessary resources at a low cost."
+            }
+        },
+        "process" : {
+            "header" : "Our Process",
+            "subheader" : "Work with planning",
+            "consultation" : {
+                "title" : "Initial Consultation",
+                "description" : "Discuss client requirements, goals, and preferences. Provide an overview of services, technologies, and design options"
+            },
+            "signing" : {
+                "title" : "Contract Signing",
+                "description" : "Draft a formal contract specifying project scope, deliverables, payment terms, and deadlines.Both parties review, negotiate if necessary, and sign the contract."
+            },
+            "code" : {
+                "title" : "Craft & Code",
+                "description" : "Craft & Code Our expert team meticulously designs and codes, sculpting the digital masterpiece that is your Tailored needs, combining creativity and technology for maximum impact."
+            },
+            "deliver" : {
+                "title" : "Deliver & Optimize",
+                "description" : "We lift the curtains on your web project, fine-tuning and optimizing every detail to make sure your online presence shines bright and stays ahead of the digital move"
+            }
         }
     },
     "about" : {
@@ -61,6 +118,23 @@
         "first-para" : "CodeArtisan is an Online Digital Solution Agency and is structured with technical experts from various fields. We are an agency responsible for mobile application services, website related services, digital marketing services and web hosting services, and our goal is to deliver the best digital solutions for your business. We are an independent agency and are not affiliated with any organization, so we are always ready to provide services for a company, an individual or a project. In addition, we can take responsibility for the entire project from start to finish and provide the best service even for a single service that is required.",
         "second-para" : "​​Our team members are experts in various fields of technology and are full of experience and knowledge. Mobile application experts, Website experts, designers, In addition to server experts, technicians from all other fields are working as freelancers at CodeArtisan. Because we have the best communication between experts who are really interested in technology, it is not wrong if it is a place where you can create good digital products. Therefore, we invite you to contact us to push the limits and shape your online existence in the best possible way.",
         "24hours-service" : "24 HOURS SERVICE AVAILABLE",
-        "contact-us-on-viber" : "Contact Us On Viber"
+        "contact-us-on-viber" : "Contact Us On Viber",
+        "contact" : "Contact Viber for any inquery",
+        "order-service" : "Order Service"
+    },
+    "footer" : {
+        "office-address" : "Office Address",
+        "working-hours" : "Working Hours",
+        "working-time" : "Every Day 8am - 22pm",
+        "aboutus" : "CodeArtisan is an independent digital agency offering expert services in mobile apps, websites, digital marketing, and web hosting. We deliver top-notch solutions and manage projects from start to finish for businesses and individuals",
+        "meet-the-team" : "Meet the team",
+        "about-us" : "About Us",
+        "contact-us" : "Contact Us",
+        "privacy-policy" : "Privacy Policy",
+        "explore" : "Explore",
+        "what-we-offer" : "What we offer",
+        "our-story" : "Our Story",
+        "help-center" : "Help Center",
+        "our-mission" : "Our Mission"
     }
 }

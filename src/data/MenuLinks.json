@@ -1,8 +1,7 @@
 [
   {
     "name": "home",
-    "path": "/",
-    "subMenu": []
+    "path": "/"
   },
   {
     "name": "about",
@@ -10,7 +9,47 @@
   },
   {
     "name": "service",
-    "path": "/service"
+    "path": "/service",
+    "subMenu": [
+      {
+          "name": "web-development",
+          "path": "/service/1"
+      },
+      {
+          "name": "app-development",
+          "path": "/service/2"
+      },
+      {
+          "name": "domain-hosting",
+          "path": "/service/3"
+      },
+      {
+          "name": "maintainence",
+          "path": "/service/4"
+      },
+      {
+          "name": "digital-marketing",
+          "path": "/service/5"
+      },
+      {
+          "name": "free-consultation",
+          "path": "/service/6"
+      }
+    ]
+  },
+  {
+    "name": "web-solution",
+    "path": "/web-solution",
+    "subMenu" : [
+      {
+        "name" : "domain-registeration",
+        "path" : "/web-solution/domain"
+      },
+      {
+        "name" : "hosting",
+        "path" : "/web-solution/hosting"
+      }
+    ]
   },
   {
     "name": "team",

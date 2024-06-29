@@ -1,10 +1,9 @@
-import React from 'react';
-import Slider from 'react-slick';
-import {TitleWrap, SecSubTitle, SecTitle, TeamBoxTwo} from '../../components';
+import React from "react";
+import Slider from "react-slick";
+import { TitleWrap, SecSubTitle, SecTitle, TeamBoxTwo } from "../../components";
+import { useTranslation } from "react-i18next";
 
-
-const TeamTwo = ({...restProps})=> {     
-
+const TeamTwo = ({ ...restProps }) => {
   const settings = {
     autoplay: true,
     autoplaySpeed: 8000,
@@ -18,29 +17,33 @@ const TeamTwo = ({...restProps})=> {
         breakpoint: 1200,
         settings: {
           slidesToShow: 3,
-        }
+        },
       },
       {
         breakpoint: 992,
         settings: {
           slidesToShow: 2,
-        }
+        },
       },
       {
         breakpoint: 767,
         settings: {
           slidesToShow: 1,
-        }
-      }
-    ]
-  };  
-  
+        },
+      },
+    ],
+  };
+
+  const { t } = useTranslation();
+
   return (
     <div {...restProps}>
       <div className="container">
         <TitleWrap className="text-center">
-          <SecSubTitle>GREAT TEAM MEMBERS</SecSubTitle>
-          <SecTitle className="h1 text-capitalize">We Have Expert Team</SecTitle>
+          <SecSubTitle>{t("home.team.header")} </SecSubTitle>
+          <SecTitle className="h1 text-capitalize">
+            {t("home.team.subheader")}
+          </SecTitle>
         </TitleWrap>
         <Slider {...settings}>
           <TeamBoxTwo
@@ -65,6 +68,6 @@ const TeamTwo = ({...restProps})=> {
       </div>
     </div>
   );
-}
+};
 
 export default TeamTwo;

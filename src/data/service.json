@@ -6,7 +6,7 @@
     "icon": "images/icon/cloud-service.png",
     "bgShape": "images/bg/sr-box-bg-1.jpg",
     "bgShape2": "images/shape/sr-bg-shape-2-1.png",
-    "title": "Reliable Cloud Services",
+    "title": "development",
     "text": "Embrace the power of cloud technology with our reliable services. We offer secure and scalable cloud solutions, enabling your business to access data and applications anytime, anywhere, fostering seamless collaboration and efficiency."
   },
   {
@@ -16,7 +16,7 @@
     "icon": "images/icon/coding.png",
     "bgShape": "images/bg/sr-box-bg-1.jpg",
     "bgShape2": "images/shape/sr-bg-shape-2-1.png",
-    "title": "Web development Solutions",
+    "title": "marketing",
     "text": "Embrace the power of cloud technology with our reliable services. We offer secure and scalable cloud solutions, enabling your business to access data and applications anytime, anywhere, fostering seamless collaboration and efficiency. "
   },
   {
@@ -26,7 +26,7 @@
     "icon": "images/icon/web-maintenance.png",
     "bgShape": "images/bg/sr-box-bg-1.jpg",
     "bgShape2": "images/shape/sr-bg-shape-2-1.png",
-    "title": "Proactive Maintenance Services",
+    "title": "consulting",
     "text": "Ensure your website's optimal performance with our proactive maintenance services. Our dedicated team monitors, updates, and troubleshoots issues in real-time, guaranteeing your website runs smoothly and stays secure, allowing you to focus on your core business activities. "
   },
   {
@@ -36,7 +36,7 @@
     "icon": "images/icon/web-design.png",
     "bgShape": "images/bg/sr-box-bg-1.jpg",
     "bgShape2": "images/shape/sr-bg-shape-2-1.png",
-    "title": "Innovative Web Design",
+    "title": "maintainence",
     "text": "Captivate your audience with stunning web designs. Our creative team combines aesthetics and functionality to deliver visually striking websites that leave a lasting impression, ensuring your brand stands out in the digital landscape."
   },
   {
@@ -46,17 +46,7 @@
     "icon": "images/icon/seo.png",
     "bgShape": "images/bg/sr-box-bg-1.jpg",
     "bgShape2": "images/shape/sr-bg-shape-2-1.png",
-    "title": "Boost Your Visibility with SEO Marketing",
+    "title": "marketing",
     "text": " Maximize your online reach and increase organic traffic with our SEO marketing services. Our experts optimize your website, implement strategic keywords, and employ ethical practices to boost your search engine rankings, ensuring potential customers find you easily."
-  },
-  {
-    "id": "6",
-    "path": "/service-details/6",
-    "image": "images/service/sr-3-6.jpg",
-    "icon": "images/icon/consultation.png",
-    "bgShape": "images/bg/sr-box-bg-1.jpg",
-    "bgShape2": "images/shape/sr-bg-shape-2-1.png",
-    "title": "Expert Consulting, Absolutely Free",
-    "text": "Get valuable insights and expert guidance without the cost. Our free consulting service provides you with tailored recommendations, helping you make informed decisions about your web development strategies, ensuring your online presence aligns with your business goals."
   }
 ]
