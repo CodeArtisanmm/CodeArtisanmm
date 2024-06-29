@@ -56,16 +56,45 @@ const MenuItem = ({ item, toggle }) => {
     }
   };
 
-  return (
-    <li>
-      <NavLink
-        to={item.path || "#"}
-        className={isActive(item.path, location) ? "nav-active" : ""}
-      >
-        {t(`navbar.${item.name}`)}
-      </NavLink>
-    </li>
-  );
+  if (item.subMenu) {
+    return (
+      <li className="menu-item-has-children">
+        <NavLink
+          to={item.path || "#"}
+          className={isActive(item.path, location) ? "nav-active" : ""}
+        >
+          {t(`navbar.${item.name}`)}
+        </NavLink>
+        {toggle && (
+          <span className="vs-mean-expand" onClick={menuExpandHandler}></span>
+        )}
+        <ul className="sub-menu">
+          {item.subMenu.map((item, index) => (
+            // <MenuItem key={index} item={child} />
+            <li key={index}>
+              <NavLink
+                to={item.path || "#"}
+                className={isActive(item.path, location) ? "nav-active" : ""}
+              >
+                {t(`navbar.${item.name}`)}
+              </NavLink>
+            </li>
+          ))}
+        </ul>
+      </li>
+    );
+  } else {
+    return (
+      <li>
+        <NavLink
+          to={item.path || "#"}
+          className={isActive(item.path, location) ? "nav-active" : ""}
+        >
+          {t(`navbar.${item.name}`)}
+        </NavLink>
+      </li>
+    );
+  }
 };
 
 export default MenuItem;

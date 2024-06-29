@@ -9,7 +9,13 @@
         "about" : "About Us",
         "service" : "Service",
         "team" : "Our Team",
-        "contact" : "Contact Us"
+        "contact" : "Contact Us",
+        "web-development" : "Website Development",
+        "app-development" : "Application Development",
+        "domain-hosting" : "Domain Registeration and Hosting",
+        "digital-marketing" : "Digital Marketing",
+        "maintainence" : "Maintainence and Support",
+        "free-consultation" : "Free Consultation"
     },
     "home" : {
         "header" : {
