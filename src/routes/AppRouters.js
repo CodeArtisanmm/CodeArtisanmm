@@ -3,8 +3,6 @@ import { Routes, Route } from "react-router-dom";
 
 // Home Pages
 import HomeOne from "../pages/HomeOne";
-import HomeTwo from "../pages/HomeTwo";
-import HomeThree from "../pages/HomeThree";
 
 // About Page
 import About from "../pages/About";

@@ -1,41 +1,46 @@
 import React from "react";
-import { Button } from "../";
 import { useForm, ValidationError } from "@formspree/react";
+import { useTranslation } from "react-i18next";
+import services from "../../data/service.json";
 
 const FormFive = () => {
   const [state, handleSubmit] = useForm("xnqkywkw");
+  const { t } = useTranslation();
   if (state.succeeded) {
-    return <p>Thanks for joining!</p>;
+    return <p> {t("contact.thanks_for_joining")}</p>;
   }
 
   return (
     <form action="#" className="vs-contact-form" onSubmit={handleSubmit}>
       <div className="row gx-20">
         <div className="col-md-6 form-group">
-          <input type="text" placeholder="Your Name" />
+          <input type="text" placeholder={t("contact.your_name")} />
           <i className="fal fa-user" />
         </div>
         <div className="col-md-6 form-group">
-          <input name="email" type="email" placeholder="Email Address" />
+          <input
+            name="email"
+            type="email"
+            placeholder={t("contact.email_address")}
+          />
           <ValidationError prefix="Email" field="email" errors={state.errors} />
           <i className="fal fa-envelope" />
         </div>
         <div className="col-12 form-group">
           <select>
-            <option defaultValue="nothing">Select subject</option>
-            <option defaultValue="Web Development">Web Development</option>
-            <option defaultValue="Cloud Service"> Cloud Service </option>
-            <option defaultValue="Maintainence Service">
-              Maintainence Service
+            <option defaultValue="nothing">
+              {t("contact.select_subject")}
             </option>
-            <option defaultValue="Web Design"> Web Design </option>
-            <option defaultValue="SEO Marketing"> SEO Marketing </option>
-            <option defaultValue="Free Consultation">Free Consultation</option>
+            {services.map((item) => (
+              <option key={item.id}>
+                {t(`home.service.${item.title}.title`)}
+              </option>
+            ))}
           </select>
         </div>
         <div className="col-12 form-group">
           <textarea
-            placeholder="Type Your Message"
+            placeholder={t("contact.type_your_message")}
             id="message"
             name="message"
           />
@@ -46,7 +51,10 @@ const FormFive = () => {
           />
         </div>
         <div className="col-12">
-          <button type="submit"> Submit </button>
+          <button type="submit" className="vs-btn">
+            {t("contact.submit_message")}
+            <i className="far fa-arrow-right" />
+          </button>
           {/* <Button type="submit" onclick={handleSubmit}>
             Submit Message
             <i className="far fa-arrow-right" />

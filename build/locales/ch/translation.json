@@ -9,7 +9,16 @@
         "about": "关于我们",
         "service": "服务",
         "team": "我们的团队",
-        "contact": "联系我们"
+        "contact": "联系我们",
+        "web-development" : "网站开发",
+        "app-development" : "应用程序开发",
+        "domain-hosting" : "域名注册和托管",
+        "digital-marketing" : "数字营销”",
+        "maintainence" : "维护和支持",
+        "free-consultation" : "免费咨询",
+        "web-solution" : "网络解决方案",
+        "domain-registeration" : "域名注册",
+        "hosting" : "网络托管"
     },
     "home": {
         "header": {
@@ -103,6 +112,16 @@
             }
         }
     },
+    "about" : {
+        "title-about" : "将您的想法变成数字现实",
+        "title-home" : "选择正确的商业伙伴至关重要！！！",
+        "first-para" : "CodeArtisan 是一家在线数字解决方案机构，由来自各个领域的技术专家组成。我们是一家负责移动应用服务、网站相关服务、数字营销服务和服务器服务的机构，我们的目标是为您的业务提供最佳的数字解决方案。我们是一家独立机构，不隶属于任何组织，因此我们随时准备为公司、个人或项目提供服务。此外，我们可以从头到尾负责整个项目，即使对于所需的单个服务，我们也能提供最好的服务。",
+        "second-para" : "我们的团队成员是各个技术领域的专家，经验丰富，知识渊博。除了移动应用专家、网站专家、设计师、服务器专家外，所有其他领域的技术人员都在 CodeArtisan 担任自由职业者。因为我们拥有真正对技术感兴趣的专家之间的最佳沟通，所以如果这是一个您可以创造优秀数字产品的地方，那就没错了。因此，我们邀请您与我们联系，以突破极限并以最佳方式塑造您的在线存在。",
+        "24hours-service" : "24 小时提供服务",
+        "contact-us-on-viber" : "通过 Viber 联系我们",
+        "contact" : "Contact Viber for any inquery",
+        "order-service" : "Order Service"
+    },
     "footer" : {
         "office-address" : "办公地址",
         "working-hours" : "工作时间",
@@ -117,5 +136,20 @@
         "our-story" : "我们的故事",
         "help-center" : "帮助中心",
         "our-mission" : "我们的使命"
-    }    
+    },
+    "contact" : {
+        "leave_message" : "留言",
+        "ready_to_help_you" : "我们随时准备为您提供帮助",
+        "your_name" : "您的姓名",
+        "email_address" : "电子邮件地址",
+        "type_your_message" : "输入您的消息",
+        "submit_message" : "提交消息",
+        "select_subject" : "选择主题",
+        "office_address" : "办公地址",
+        "online" : "在线",
+        "phone_and_email" : "电话号码和电子邮件",
+        "our_office_address" : "我们的办公地址",
+        "official_work_time" : "正式工作时间",
+        "thanks_for_joining" : "感谢加入!"
+    }
 }

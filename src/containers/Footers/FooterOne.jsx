@@ -5,7 +5,6 @@ import {
   Widget,
   AboutWidget,
   CategoryWidget,
-  RecentPostWidget,
   IconLink,
 } from "../../components/";
 
@@ -13,7 +12,7 @@ import {
 import widgetsdata from "../../data/widgets.json";
 import { useTranslation } from "react-i18next";
 
-const { pageList, exploreLinks, recentPosts } = widgetsdata;
+const { pageList, exploreLinks } = widgetsdata;
 
 const FooterOne = () => {
   const { t } = useTranslation();

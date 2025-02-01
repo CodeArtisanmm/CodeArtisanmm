@@ -38,24 +38,6 @@
     ]
   },
   {
-    "name": "web-solution",
-    "path": "/web-solution",
-    "subMenu" : [
-      {
-        "name" : "domain-registeration",
-        "path" : "/web-solution/domain"
-      },
-      {
-        "name" : "hosting",
-        "path" : "/web-solution/hosting"
-      }
-    ]
-  },
-  {
-    "name": "team",
-    "path": "/team"
-  },
-  {
     "name": "contact",
     "path": "/contact"
   }

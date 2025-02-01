@@ -1,14 +1,12 @@
-import React, { Fragment, useTransition } from "react";
+import React, { Fragment } from "react";
 import { Seo, ScrollTopBtn } from "../components";
 import {
   HeaderTwo,
   HeroOne,
   FeatureOne,
   AboutOne,
-  ServiceOne,
   TeamOne,
   FaqOne,
-  AboutTwo,
   ProcessOne,
   FooterOne,
 } from "../containers";
@@ -28,7 +26,7 @@ const HomeOne = () => {
       </div>
       {/* <ServiceOne className="space-top space-extra-bottom" /> */}
       {/* <CounterOne /> */}
-      <TeamOne className="space-top space-extra-bottom" />
+      {/* <TeamOne className="space-top space-extra-bottom" /> */}
       <FaqOne />
       {/* <AboutTwo className="space-top space-extra-bottom" /> */}
       {/* <CtaOne className="space" /> */}

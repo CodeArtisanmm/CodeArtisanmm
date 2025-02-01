@@ -136,5 +136,20 @@
         "our-story" : "Our Story",
         "help-center" : "Help Center",
         "our-mission" : "Our Mission"
+    },
+    "contact" : {
+        "leave_message" : "Leave a Message",
+        "ready_to_help_you" : "We are ready to help you",
+        "your_name" : "Your Name",
+        "email_address" : "Email Address",
+        "type_your_message" : "Type your message",
+        "submit_message" : "Submit Message",
+        "select_subject" : "Select Subject",
+        "office_address" : "Office Address",
+        "online" : "Online",
+        "phone_and_email" : "Phone Number & Email",
+        "our_office_address" : "Our Office Address",
+        "official_work_time" : "Official Work Time",
+        "thanks_for_joining" : "Thanks for joining!"
     }
 }

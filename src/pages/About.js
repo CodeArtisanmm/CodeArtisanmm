@@ -15,7 +15,7 @@ const About = () => (
     <Breadcrumb pageName="About Us" bgImage="images/breadcumb/about-3.jpg" />
     <ServiceFour className="space-top space-extra-bottom" />
     <AboutSeven />
-    <TeamTwo className="space-top space-extra-bottom" />
+    {/* <TeamTwo className="space-top space-extra-bottom" /> */}
     <FooterOne />
     <ScrollTopBtn />
   </Fragment>

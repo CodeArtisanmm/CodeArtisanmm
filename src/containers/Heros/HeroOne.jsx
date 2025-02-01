@@ -63,7 +63,7 @@ const HeroOne = () => {
               <div className="hero-content">
                 <h1
                   className={
-                    i18n.language == "my" ? "hero-title-my" : "hero-title"
+                    i18n.language === "my" ? "hero-title-my" : "hero-title"
                   }
                 >
                   {slide.title}

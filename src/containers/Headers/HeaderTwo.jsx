@@ -42,15 +42,15 @@ const HeaderTwo = () => {
               className="header-media col-auto"
               icon="fas fa-phone-alt"
               title={t("home.header.phone")}
-              info={<a href="tel:+09770139207"> 09770139207 </a>}
+              info={<a href="tel:+09448044702"> 09448044702 </a>}
             />
             <InfoMedia
               className="header-media col-auto d-none d-lg-flex"
               icon="fas fa-envelope"
               title={t("home.header.email")}
               info={
-                <a href="mailto:info@codeartisanmm.com">
-                  info@codeartisanmm.com
+                <a href="mailto:info@codeartisanmyanmar.com">
+                  info@codeartisanmyanmar.com
                 </a>
               }
             />

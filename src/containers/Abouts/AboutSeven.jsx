@@ -31,7 +31,7 @@ const AboutSeven = () => {
                     className="about-call"
                     icon="fas fa-phone-alt"
                     title={`${t("about.contact")}`}
-                    info={<a href="09770139207"> 09770139207 </a>}
+                    info={<a href="tel:+959448044702">09448044702</a>}
                   />
                 </div>
               </div>

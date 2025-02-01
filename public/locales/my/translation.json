@@ -136,5 +136,20 @@
         "our-story" : "ကျွန်တော်တို့အကြောင်း",
         "help-center" : "အကူအညီစင်တာ",
         "our-mission" : "ကျွန်တော်တို့ ရည်မှန်းချက်"
+    },
+    "contact" : {
+        "leave_message" : "မတ်ဆေ့ပို့မည်",
+        "ready_to_help_you" : "ကျွန်တော်တို့မှ ကူညီရန်အသင့်ရှိပါသည်",
+        "your_name" : "သင်၏ အမည်",
+        "email_address" : "အီးမေးလ် လိပ်စာ",
+        "type_your_message" : "သင်၏ မတ်ဆေ့အား ရေးပါ",
+        "submit_message" : "မတ်ဆေ့ပေးပို့မည်",
+        "select_subject" : "ပေးပို့လိုသောအကြောင်းအရာ",
+        "office_address" : "ရုံးလိပ်စာ",
+        "online" : "အွန်လိုင်း",
+        "phone_and_email" : "ဖုန်းနံပါတ်နှင့် အီးမေးလ်",
+        "our_office_address" : "ကျွန်တော်တို့၏ ရုံးလိပ်စာ",
+        "official_work_time" : "တရားဝင်အလုပ်ချိန်",
+        "thanks_for_joining" : "ဆက်သွယ်ပေးသည့်အတွက် ကျေးဇူးအထူးတင်ရှိပါသည်"
     }
 }

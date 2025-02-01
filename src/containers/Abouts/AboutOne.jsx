@@ -1,4 +1,4 @@
-import React, { useTransition } from "react";
+import React from "react";
 import {
   Button,
   ImageBoxOne,
@@ -12,7 +12,7 @@ const AboutOne = ({ className }) => {
   const { t } = useTranslation();
   return (
     <div className={`position-relative ${className || ""}`}>
-      <div className="about-shape1 d-none d-xl-block">CodeArtisan</div>
+      <div className="about-shape1 d-none d-xl-block">CodeArtisan Myanmar</div>
       <div className="container z-index-common">
         <div className="row gx-60">
           <div className="col-lg-6 col-xl-5 mb-50 mb-lg-0">

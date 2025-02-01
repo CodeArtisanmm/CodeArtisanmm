@@ -9,7 +9,16 @@
         "about": "关于我们",
         "service": "服务",
         "team": "我们的团队",
-        "contact": "联系我们"
+        "contact": "联系我们",
+        "web-development" : "网站开发",
+        "app-development" : "应用程序开发",
+        "domain-hosting" : "域名注册和托管",
+        "digital-marketing" : "数字营销”",
+        "maintainence" : "维护和支持",
+        "free-consultation" : "免费咨询",
+        "web-solution" : "网络解决方案",
+        "domain-registeration" : "域名注册",
+        "hosting" : "网络托管"
     },
     "home": {
         "header": {
@@ -127,5 +136,20 @@
         "our-story" : "我们的故事",
         "help-center" : "帮助中心",
         "our-mission" : "我们的使命"
-    }    
+    },
+    "contact" : {
+        "leave_message" : "留言",
+        "ready_to_help_you" : "我们随时准备为您提供帮助",
+        "your_name" : "您的姓名",
+        "email_address" : "电子邮件地址",
+        "type_your_message" : "输入您的消息",
+        "submit_message" : "提交消息",
+        "select_subject" : "选择主题",
+        "office_address" : "办公地址",
+        "online" : "在线",
+        "phone_and_email" : "电话号码和电子邮件",
+        "our_office_address" : "我们的办公地址",
+        "official_work_time" : "正式工作时间",
+        "thanks_for_joining" : "感谢加入!"
+    }
 }

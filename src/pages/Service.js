@@ -14,7 +14,7 @@ const Service = () => (
     <Breadcrumb pageName="Services" bgImage="images/breadcumb/team.jpg" />
     <ServiceFive className="space-top space-extra-bottom" />
 
-    <TestimonialOne className="space-top space-extra-bottom" />
+    {/* <TestimonialOne className="space-top space-extra-bottom" /> */}
     <FooterOne />
     <ScrollTopBtn />
   </Fragment>
