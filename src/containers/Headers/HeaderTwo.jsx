@@ -27,8 +27,14 @@ const HeaderTwo = () => {
         </HeaderTop.Left>
         <HeaderTop.Right>
           <IconLink className="header-social style-white" title="Follow Us On:">
-            <IconLink.Item icon="fab fa-facebook-f" path="/" />
-            <IconLink.Item icon="fab fa-viber" path="/" />
+            <IconLink.Item
+              icon="fab fa-facebook-f"
+              path="https://www.facebook.com/profile.php?id=61552999596460"
+            />
+            <IconLink.Item
+              icon="fab fa-viber"
+              path="https://www.viber.com/chat?number=+959448044702"
+            />
           </IconLink>
         </HeaderTop.Right>
       </HeaderTop>

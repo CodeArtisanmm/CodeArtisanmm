@@ -32,6 +32,7 @@ import Contact from "../pages/Contact";
 
 // Not Fouond Page
 import NotFound from "../pages/NotFound";
+import PrivacyPolicy from "../pages/PrivacyPolicy";
 
 const AppRouters = () => {
   return (
@@ -50,6 +51,7 @@ const AppRouters = () => {
         <Route path="/blog-grid" exact element={<BlogGrid />} />
         <Route path="/blog-details" exact element={<BlogDetails />} />
         <Route path="/contact" exact element={<Contact />} />
+        <Route path="/privacy-policy" exact element={<PrivacyPolicy />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </Fragment>

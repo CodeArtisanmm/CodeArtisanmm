@@ -32,7 +32,7 @@ const AboutOne = ({ className }) => {
             <InfoMedia
               image="images/icon/tel-1-1.png"
               title={t("home.about.24hours-service")}
-              info={`${t("home.about.contact-us-on-viber")} +959 770 139 207`}
+              info={`${t("home.about.contact-us-on-viber")} +959 448 044 702`}
               className="call-media"
             />
             <Button path="/about">

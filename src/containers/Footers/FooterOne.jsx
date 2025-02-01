@@ -44,11 +44,11 @@ const FooterOne = () => {
                 title={t("contact-us")}
                 info={
                   <>
-                    <a href="mailto:info@codeartisanmm.com">
-                      info@codeartisanmm.com
+                    <a href="mailto:info@codeartisanmyanmar.com">
+                      info@codeartisanmyanmar.com
                     </a>
                     <br />
-                    <a href="tel:+09770139207"> 09770139207 </a>
+                    <a href="tel:+959448044702"> 0959448044702 </a>
                   </>
                 }
               />
@@ -64,8 +64,14 @@ const FooterOne = () => {
                 <AboutWidget>
                   <AboutWidget.Text>{t("footer.aboutus")}</AboutWidget.Text>
                   <IconLink className="footer-social">
-                    <IconLink.Item icon="fab fa-facebook-f" path="/" />
-                    <IconLink.Item icon="fab fa-viber" path="/" />
+                    <IconLink.Item
+                      icon="fab fa-facebook-f"
+                      path="https://www.facebook.com/profile.php?id=61552999596460"
+                    />
+                    <IconLink.Item
+                      icon="fab fa-viber"
+                      path="https://www.viber.com/chat?number=+959448044702"
+                    />
                   </IconLink>
                 </AboutWidget>
               </Widget>
@@ -116,13 +122,13 @@ const FooterOne = () => {
       <div className="copyright-wrap">
         <div className="container">
           <p className="copyright-text">
-            Copyright <i className="fal fa-copyright" /> 2023
+            Copyright <i className="fal fa-copyright" /> 2024
             <Link className="text-white" to="/">
-              CodeArtisan
+              CodeArtisanMyanmar
             </Link>
             . All rights reserved by
             <a className="text-white" href="">
-              CodeArtisan
+              CodeArtisanMyanmar
             </a>
             .
           </p>
