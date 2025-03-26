@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { BrowserRouter } from "react-router-dom";
 import AppRouters from "./routes/AppRouters";
 import "./assets/fonts/exo/exo.css";

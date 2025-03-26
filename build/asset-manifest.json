@@ -56,7 +56,7 @@
     "static/media/Exo-Medium.woff2": "/static/media/Exo-Medium.ac8a93831f2bf5c3335c.woff2",
     "index.html": "/index.html",
     "static/media/getFetch.cjs": "/static/media/getFetch.7a7a1c81840c96d5a3ea.cjs",
-    "main.131565c9.css.map": "/static/css/main.131565c9.css.map",
+    "main.436ea62c.css.map": "/static/css/main.436ea62c.css.map",
     "main.7b6a8984.js.map": "/static/js/main.7b6a8984.js.map",
     "reactPlayerYouTube.8841a14d.chunk.js.map": "/static/js/reactPlayerYouTube.8841a14d.chunk.js.map",
     "reactPlayerSoundCloud.def0bdfa.chunk.js.map": "/static/js/reactPlayerSoundCloud.def0bdfa.chunk.js.map",
@@ -75,7 +75,7 @@
     "453.dd53e008.chunk.js.map": "/static/js/453.dd53e008.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.131565c9.css",
+    "static/css/main.436ea62c.css",
     "static/js/main.7b6a8984.js"
   ]
 }
